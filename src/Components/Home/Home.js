@@ -32,7 +32,7 @@ export default class Home extends React.Component{
                             {
                                     logoComp.map((logo, key) =>{
                                         return(
-                                            <img className="comp-logos" src={logo[0]} alt="" key={key.toString()} onClick={ (e) => w.location.href = `mailto: ${logo[1]}`}></img>
+                                            <img className="comp-logos" src={logo[0]} alt="" key={key.toString()} onClick={ (e) => w.open(`${logo[1]}`)}></img>
                                         )
                                     })
                                 }
