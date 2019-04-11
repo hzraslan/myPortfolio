@@ -8,5 +8,5 @@ export const logosWorks = [
     chatAngular, socialMedia
 ]
 export const logoComp = [
-    basePro, miHistoria, doubleDoor,
+    [basePro, 'www.baseproduksiyon.com'], [miHistoria, 'www.mihistoria.com.tr'], [doubleDoor,'www.doubledoor.io']
 ]
