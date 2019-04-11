@@ -5,8 +5,8 @@ import socialMedia from './socialMedia.png';
 import doubleDoor from './DoubleDoor.png';
 
 export const logosWorks = [
-    [socialMedia, 'https://digmypast.herokuapp.com'], [chatAngular, 'interactt.me']
+    [socialMedia, 'https://digmypast.herokuapp.com'], [chatAngular, 'https://interactt.me']
 ]
 export const logoComp = [
-    [basePro, 'www.baseproduksiyon.com'], [miHistoria, 'www.mihistoria.com.tr'], [doubleDoor,'www.doubledoor.io']
+    [basePro, 'https://www.baseproduksiyon.com'], [miHistoria, 'http://www.mihistoria.com.tr'], [doubleDoor,'http://www.doubledoor.io']
 ]
