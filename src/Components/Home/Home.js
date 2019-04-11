@@ -42,7 +42,7 @@ export default class Home extends React.Component{
                             {
                                     logosWorks.map((logo, key) =>{
                                         return(
-                                            <img className="project-logos" src={logo} alt="" key={key.toString()}></img>
+                                            <img className="project-logos" src={logo[0]} alt="" key={key.toString()} onClick={ (e) => w.open(`${logo[1]}`)}></img>
                                         )
                                     })
                                 }
