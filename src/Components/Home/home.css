@@ -130,6 +130,7 @@
   .comp-logos{
     height: 150px;
     margin-left: 50px;
+    cursor: pointer;
   }
   .project-logos{
       display: block;
